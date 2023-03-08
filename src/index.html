@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"
+color}
+body {font-family: "Open Sans"}
+h2{color: white;}
+
+</style>
+</head>
+<body class="w3-light-grey">
+  <script src="new.js"></script>
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#https://www.facebook.com/groups/143048116685570/user/1007850181/" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>EGYPT</b></h1>
+    <h6>lets see what we can find in <span class="w3-tag">Egypt</span></h6>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c501aa6bbe.css" crossorigin="anonymous">
+  </header>
+
+  <!-- Image header -->
+  
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="http://egyptianstreets.com/wp-content/uploads/2014/07/pharoahs-island_1886711b.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <h2>Select a city in Egypt</h2>
+        <select id="city">
+          <option value="Cairo">Cairo</option>
+          <option value="Alexandria">Alexandria</option>
+          <option value="Luxor">Luxor</option>
+          <option value="Aswan">Aswan</option>
+          <option value="Aswan">Sharqia</option>
+          <option value="Aswan">Minya</option>
+          <option value="Aswan">Qena</option>
+          <option value="Aswan">Red Sea</option>
+          <option value="Aswan">New Valley</option>
+          <option value="Aswan">Luxor</option>
+        </select>
+        <button id="getWeather">Get Weather</button>
+        <div id="weather"></div>
+        <script src="new.js"></script>
+      </body>
+        
+   
+        
+  </header>
+
+
+
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>EGYPT TOUR AND VACATION PLACES</h3>
+          <h5>Giza Pyramids and Egyptian Museum<span class="w3-opacity"></span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://marvelous.ee/wp-content/uploads/2022/04/Egypt-Giza.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong>About this tour!</strong>
+            Experience Cairo’s very best on a private, full-day tour that takes in ancient sites. starts At 8:00 am with Pickup from your hotel in either Cairo or Giza to Start your Giza Full Day Tour Visiting Giza Pyramids where you Visit the Great Pyramids Of Giza – Cheops, Chephren & Mykerinos Also it’s the same place where you Can have a close-up look at the Sphinx, Then Continue your day tour to the Egyptian Museum (where you can see King Tutankhamun’s golden death mask and more than 120,000 other antiquities),  At the end of the Tour, you will be transferred back to your Hotel.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                <p>Nice Place</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3></h3>
+          <h5>Quad Biking Tour in Sharm El Sheikh Desert <span class="w3-opacity"></span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://marvelous.ee/wp-content/uploads/2022/09/safari-in-egypt.jpg" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+          <p><strong>Hats!</strong> Quad bikes are available for single riders, or if you prefer you can have someone on the back with you.
+            The Echo Mountain here is the interesting fun part where you get to scout out the echo mountain to experience the beauty of the desert and take some pictures.
+            Explore The Desert our instructors will guide our group on some secret passages in the desert so your quest in the desert along with the rest of the group will be very exciting. Drive Back to Hotel our rep will wait to escort you back to the hotel.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_train.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+                <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+                <p>Love hats!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3></h3>
+          <h5>Sahrk and Dolphin Show in Sharm El Sheikh <span class="w3-opacity"></span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://marvelous.ee/wp-content/uploads/2022/09/Dolphin-Show-in-Sharm-El-Sheikh.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>Dont miss!</strong> It is a great opportunity for all the family, adult and child, to appreciate the sheer intelligence of these incredible creatures, and see real life dolphins up close.
+            Arrive at Dolphin Park at 3pm ready for the dolphin show to start. Marvel as the pod of bottlenose dolphin’s leap, pose, catch, jump, and interact with their trainers in perfect timing and precision, they even move in time to the music. After the show finished, you will be transferred back to your hotel in Sharm..</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_mountain.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Jane <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                <p>That was a great runway show! Thanks for everything.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/boy.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>John <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_hood.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                <p>Cant wait for the runway to start!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3></h3>
+          <h5>Snorkeling Day Trip To Ras Mohamed From Sharm<span class="w3-opacity"></span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://marvelous.ee/wp-content/uploads/2022/09/Have-you-tried-diving-snorkelling-and-boat-trips-in-hurgada-egypt.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong>About this tour!</strong>
+            Enjoy a relaxing day swimming, snorkeling and sunbathing on this leisurely boat cruise to Tiran Island where you will discover crystal clear blue water, lagoons and colorful coral reefs..</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                <p>Nice Place</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3></h3>
+          <h5>Alexandria Day Tour<span class="w3-opacity"></span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://marvelous.ee/wp-content/uploads/2022/04/Montazah-Palace-Alexandria-egypt.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong>About this tour!</strong>
+            Start at 7 am from your hotel in downtown Cairo or pyramids area, then we will start our tour. Explore the rich history of Alexandria; tracing time from its ancient Egyptian roots, through the Classical period, to Roman times and beyond on an informative full-day tour from Cairo. Enjoy meet-and-greet service pick-up, and drop off from your Cairo hotel, and the comfort of an air-conditioned bus. End this day of discovery with a relaxed evening drive back to Cairo, and your hotel..</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                <p>Nice Place</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="/facts.webp" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>FUN FACT EGYPT</h4>
+          <p>The only remaining monument of the 7 ancient wonders of the world is still standing in Egypt. Only the Great Pyramid of Giza, in El Giza, Egypt has stood the test of time. The Pyramids of Giza are located in the capital city of Cairo and are as awe-inspiring as they always have been. The Great Pyramid of Khufu is the largest of all the pyramids and it was built to house the Pharoah Khufu in the fourth century. Today is known as the pyramid of Cheops.
+
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>FAMOUS FOOD IN EGYPT</h3>
+          <h5>1.Egyptian Fatteh<span class="w3-opacity"></span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://www.themealdb.com/images/media/meals/rlwcc51598734603.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong>Ingredients</strong>1 lb beef ,1 onion,1 chicken stock cube , 2 tomatoes ,4 garlic clove , 1tbs tomato puree ,2 cups rice ,1/4 cup noodles ,1/4 cup butter ,1/4 cup olive oil , 1 pita bread ,1tbs cumin ,3tbs white wine vinegar , salt , papper</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                <p>Nice Place</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+        <!-- Blog entry -->
+        <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3></h3>
+              <h5>2.Feteer Meshaltet<span class="w3-opacity"></span></h5>
+            </div>
+    
+            <div class="w3-justify">
+              <img src="https://www.themealdb.com/images/media/meals/9f4z6v1598734293.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+              <p><strong>Ingredients</strong>4 cups flour , 1 1/2 cups water , 1/4 salt ,1 cup unsalted butter ,1/4 cup olive oil
+               </p>
+              <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+              <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+              <p class="w3-clear"></p>
+              <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+                <hr>
+                  <div class="w3-col l2 m3">
+                    <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                    <p>Nice Place</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+
+                <!-- Blog entry -->
+        <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3></h3>
+              <h5>3.Ful Medames<span class="w3-opacity"></span></h5>
+            </div>
+    
+            <div class="w3-justify">
+              <img src="https://www.themealdb.com/images/media/meals/lvn2d51598732465.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+              <p><strong>Ingredients</strong>2 cups broad beans ,1/3 cup parsley . dash olive oil , 3 lemons ,4 garlic clove ,sprinking cumin</p>
+              <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+              <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+              <p class="w3-clear"></p>
+              <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+                <hr>
+                  <div class="w3-col l2 m3">
+                    <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                    <p>Nice Place</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+
+                   <!-- Blog entry -->
+        <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3></h3>
+              <h5>4.Koshari<span class="w3-opacity"></span></h5>
+            </div>
+    
+            <div class="w3-justify">
+              <img src="https://www.themealdb.com/images/media/meals/4er7mj1598733193.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+              <p><strong>Ingredients</strong>1 1/2 cups brown lentils , 1 1/2 cups rice , 1/2 tsp coriander , 2 cups macaroni , can chickpeas , 1 large onion , sprimkimg salt , 1/2 cup vagetable oil
+                </p>
+              <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+              <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+              <p class="w3-clear"></p>
+              <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+                <hr>
+                  <div class="w3-col l2 m3">
+                    <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                    <p>Nice Place</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+
+
+                    <!-- Blog entry -->
+        <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3></h3>
+              <h5>5.Mulukhiyah<span class="w3-opacity"></span></h5>
+            </div>
+    
+            <div class="w3-justify">
+              <img src="https://www.themealdb.com/images/media/meals/x372ug1598733932.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+              <p><strong>Ingredients</strong>800g Mulukhiya, 1 chopped onion , 300g beef, 1tsp salt ,1 litre water , 1 garlic clove , 1/2 cup olive oil
+                </p>
+              <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+              <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+              <p class="w3-clear"></p>
+              <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+                <hr>
+                  <div class="w3-col l2 m3">
+                    <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                    <p>Nice Place</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+
+
+
+
+                               <!-- Blog entry -->
+        <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3></h3>
+              <h5>6.Tamiya<span class="w3-opacity"></span></h5>
+            </div>
+    
+            <div class="w3-justify">
+              <img src="https://www.themealdb.com/images/media/meals/n3xxd91598732796.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+              <p><strong>Ingredients</strong>3 cups broad beans , 6 spring onions , 4 garlic clove , 1/4 cup parsley ,2 tsp cumin , 1 tsp baking powder ,1/2 tsp cayenne pepper , spinkling flour , as required vagetable oil
+                </p>
+              <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+              <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+              <p class="w3-clear"></p>
+              <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+                <hr>
+                  <div class="w3-col l2 m3">
+                    <img src="/w3images/avatar_smoke.jpg" style="width:90px;">
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                    <p>Nice Place</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+
+
+
+
+
+
+
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Advertise</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <span class="w3-display-middle">No Add</span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Egypt</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Waterfall</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Scuba Dive</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Beach</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Snorkling</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Pyramids</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Dessert</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Backpackers</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Honeymoon</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Nature</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trends</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>More picture</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="/pool.jpg" alt="Jeans" style="width:100%"></p>
+            <p><img src="/crush.jpg" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="/water.jpg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="/watepal.jpg" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+
+  
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+
+</body>
+</html>
